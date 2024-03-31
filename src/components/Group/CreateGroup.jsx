@@ -45,12 +45,12 @@ const CreateGroup = () => {
 				cursor="pointer"
 				p={2}
 				mr={4}
-				w={20}
+				w={24}
 				_hover={{ bg: "#4FD1C5" }}
 				boxShadow='outline'
 				onClick={onOpen}
 			>
-				Create
+				Create Group
 			</Button>
 
 			<Modal isOpen={isOpen} onClose={onClose} size='xl'>

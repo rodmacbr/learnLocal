@@ -69,7 +69,7 @@ const CreatePost = () => {
 					onClick={onOpen}
 				>
 					<CreatePostLogo />
-					<Box display={{ base: "none", md: "block" }}>Create</Box>
+					<Box display={{ base: "none", md: "block" }}>Create Post</Box>
 				</Flex>
 			</Tooltip>
 
